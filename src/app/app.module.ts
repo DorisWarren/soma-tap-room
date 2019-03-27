@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SomaComponent } from './soma/soma.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SomaComponent
   ],
   imports: [
     BrowserModule
